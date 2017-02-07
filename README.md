@@ -6,6 +6,10 @@ A web site in BASH for practice
 * a little insanity
 
 
+### Limitations
+* Text only
+* Only handle 1 connection at a time
+
 ### To start
 ```
 ./server.sh
