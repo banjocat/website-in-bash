@@ -4,3 +4,9 @@ A web site in BASH for practice
 ### Requirements
 * ncat
 * a little insanity
+
+
+### To start
+```
+./server.sh
+```
