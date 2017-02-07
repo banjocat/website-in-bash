@@ -15,6 +15,9 @@ Set $PORT to listened port. Defaults to 8000
 
 Set $HTML_PATH to directory of static files. Defaults to html_demo
 
+
 ```
 ./server.sh
 ```
+This creates all the routes by filename in $HTML_PATH. 
+It then listens for connections at $PORT
