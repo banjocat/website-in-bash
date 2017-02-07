@@ -11,7 +11,7 @@ fi
 export HTML_PATH
 bash create_routes.sh > handler.sh
 
-trap "echo "";echo Server shutting down;exit" SIGHUP SIGINT SIGTERM
+trap "echo "";echo Server shutdown;exit" SIGHUP SIGINT SIGTERM
 
 echo "Starting server on 0.0.0.0:$PORT"
 while true; do
