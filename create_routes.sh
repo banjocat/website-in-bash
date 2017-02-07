@@ -14,7 +14,7 @@ done
 
 echo "
     *)
-        cat ./404.html
+        cat ${HTML_PATH}/404.html
     ;;
 esac"
 
