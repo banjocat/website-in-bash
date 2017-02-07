@@ -8,7 +8,7 @@ A web site in BASH for practice
 
 ### Limitations
 * Text only
-* Only handle 1 connection at a time
+* Blocks until connection is complete
 
 ### To start
 ```
