@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Get path from HTTP header
+read header
+line=(${header// / })
+path=${line[1]}
+
+
+# allowed routes
+case $path in
+    "/")
+        cat $HTML_PATH/index.html
+    ;;
