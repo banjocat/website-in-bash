@@ -16,5 +16,10 @@ case $path in
         echo "Hello Cassie"
         ;;
     "/pizza")
-        echo "Pizza is good"
+        echo "This is a pizza page"
+        ;;
+    *)
+        cat ./404.html
+        ;;
+
 esac
