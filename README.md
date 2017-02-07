@@ -7,7 +7,7 @@ A static web server in BASH
 
 ### How to use
 * Set $PORT to listened port. Defaults to 8000
-* Set $HTML_PATH to directory of static files. Defaults to html_demo
+* Set $HTML_PATH to directory of static files. Defaults to html_demo (as an example)
 
 
 ```
