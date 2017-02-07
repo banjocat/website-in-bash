@@ -4,6 +4,10 @@ if [ -z $PORT ]; then
     PORT=8000
 fi
 
+trap "echo Server shutting down;exit" SIGHUP SIGINT SIGTERM
 
-ncat -k -l -p $PORT -c 'bash handler.sh'
+echo "Starting server on 0.0.0.0:$PORT"
+while true; do
+    ncat -l -p $PORT -c 'bash handler.sh'
+done
 
