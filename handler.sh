@@ -10,6 +10,7 @@ line=(${header// / })
 path=${line[1]}
 
 
+# allowed routes
 case $path in
     "/")
         echo "Hello Cassie"
