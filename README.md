@@ -1,5 +1,5 @@
 ## Bash practice project
-A web site in BASH for practice
+A static web server in BASH
 
 ### Requirements
 * ncat
